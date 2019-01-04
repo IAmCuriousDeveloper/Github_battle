@@ -1,0 +1,152 @@
+body {
+    font-family: 'Bitter', serif;
+
+    background-image: url(https://images.unsplash.com/photo-1536503341068-51b788e22751?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+}
+
+ul {
+    padding: 0;
+}
+
+.popular-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+li {
+    list-style-type: none;
+}
+
+.popular-item {
+    margin: 20px;
+    text-align: center
+}
+
+.avatar {
+    width: 150px;
+    border-radius: 30%;
+}
+
+.popular-rank {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.space-list-items {
+    margin-bottom: 7px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.languages {
+    display: flex;
+    justify-content: center;
+}
+
+.languages li {
+    margin: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+
+}
+
+.active {
+    font-weight: bold;
+}
+
+.nav li {
+
+    padding: 5%;
+    margin: 0 0 3px 0;
+}
+
+a {
+    text-decoration: none;
+    color: darkgoldenrod;
+    margin-right: 30px;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button {
+    color: #e6e6e6;
+    background: #0a0a0a;
+    border: none;
+    font-size: 16px;
+    border-radius: 3px;
+    width: 200px;
+    text-align: center;
+    display: block;
+    padding: 7px 0;
+    margin: 10px auto;
+}
+
+.button:hover:enabled {
+    background:
+        linear-gradient(#1a1a1a, #0a0a0a);
+    color: #fff;
+    text-decoration: none;
+}
+
+.button:active {
+    transform: translateY(2px);
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    flex-direction: column;
+}
+
+.column input {
+    border-radius: 4px;
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid rgba(0, 98, 7.8, 0.43);
+    font-size: 16px;
+    width: 80%;
+}
+
+.column label {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.header {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.reset {
+    border: none;
+    background: transparent;
+    color: #d0021b;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.reset:hover {
+    cursor: pointer;
+}
