@@ -2,6 +2,7 @@ var React = require("react");
 var PropTypes = require("prop-types");
 var api = require("../utils/api");
 var Loading = require('./Loading');
+var Spinner = require('./Spinner');
 
 function SelectLanguage(props) {
   var languages = ["All", "JavaScript", "Ruby", "Java", "CSS", "Python"];
